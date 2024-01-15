@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+    user-select: none;
+    transition: .5s;
+}
+
+.content{
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+.title-text{
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 80px;
+}
+
+.title-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title-text p{
+    font-weight: 500;
+}
+
+section{
+    padding: 100px 0;
+    background-color: #FAFDF2;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* HEADERRR */
+
+header{
+    background-color: #1A3129;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: #FAFDF2;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #CBEA7B;
+}
+
+/* HEADERRR end */
+
+/* Testimonials */
+
+.Testimonials{
+    padding-top: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.items{
+    border: 1px solid #EEF8D3;
+}
+
+.items .upper-text{
+    padding: 40px;
+}
+
+.profile-container{
+    padding: 30px 40px;
+    background-color: #F6FBE9;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.buttons .arrow{
+    width: 58px;
+    height: 58px;
+    background-color: #F6FBE9;
+    border: 1px solid #EEF8D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounds{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.round{
+    height: 8px;
+    width: 8px;
+    background-color: #E5F5BD;
+    border-radius: 4px;
+}
+
+.round-active{
+    background-color: #356554;
+}
+
+/* Testimonials end */
+
+/* Pricing */
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.filter p{
+    color: #4C4C4D;
+}
+
+.filter-bar{
+    border: 1px solid #dcf1a7;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+button{
+    color: #4C4C4C;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 24px;
+    background-color: none;
+    border: none;
+}
+
+.button-active{
+    background-color: #234338;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-title{
+    
+}
+
+/* Pricing end */
